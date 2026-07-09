@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "PetGuard",
+    "slug": "petguard",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "scheme": "petguard",
+    "splash": {
+      "backgroundColor": "#0b1607",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.petguard.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0b1607"
+      },
+      "package": "com.petguard.app"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
