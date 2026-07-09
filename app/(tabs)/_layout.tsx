@@ -24,7 +24,7 @@ function CustomTabBar({ state, descriptors, navigation }: BottomTabBarProps) {
   return (
     <View style={styles.barWrapper}>
       <View style={styles.bar}>
-        {state.routes.map((route, index) => {
+        {state.routes.map((route: any, index: number) => {
           const config = TAB_CONFIG[index];
           if (!config) return null;
 
